@@ -1,11 +1,12 @@
 package steps;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
 import pageobjects.HomePage;
-import pageobjects.MyInfoPage;
+import pageobjects.myInfo.MyInfoPage;
 
 public class MyInfoSteps {
 
@@ -24,5 +25,6 @@ public class MyInfoSteps {
     public void userShouldBeRedirectedToThePersonalDetailPage() {
         Assert.assertTrue(myInfoPage.ImgPersonal());
     }
+
 
 }

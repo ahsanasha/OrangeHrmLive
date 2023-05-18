@@ -30,6 +30,7 @@ public class LoginPage extends PageObject {
     WebElementFacade loginBtn;
 
     public void openOrangeHrmWeb(){
+
         openUrl(LOGIN_PAGE);
     }
 
