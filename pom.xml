@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>anteraja.serenity</groupId>
-    <artifactId>symphonia_form_center</artifactId>
+    <groupId>orange.serenity</groupId>
+    <artifactId>Orange_HRM_Live</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -124,8 +124,8 @@
                     <includes>
                         <include>**/*.java</include>
                     </includes>
-                    <parallel>methods</parallel>
-                    <useUnlimitedThreads>true</useUnlimitedThreads>
+<!--                    <parallel>methods</parallel>-->
+<!--                    <useUnlimitedThreads>true</useUnlimitedThreads>-->
                 </configuration>
                 <executions>
                     <execution>
