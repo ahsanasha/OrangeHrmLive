@@ -25,16 +25,36 @@ public class HomePage extends PageObject {
     @FindBy(css = "h6[class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
     WebElementFacade dashboardLb;
 
-
     @FindBy(css = "a[href='/web/index.php/pim/viewMyDetails']")
     WebElementFacade myInfoMenu;
+
+    @FindBy(css = "a[href='/web/index.php/performance/viewPerformanceModule']")
+    WebElementFacade performanceMenu;
+
+    @FindBy(css = "a[href='/web/index.php/directory/viewDirectory']")
+    WebElementFacade directoryMenu;
+
+    @FindBy(css = "a[href='/web/index.php/maintenance/viewMaintenanceModule']")
+    WebElementFacade maintenanceMenu;
 
     public String getHeaderLabe() {
         return dashboardLb.getText();
     }
 
     public void clickMyInfo() {
-       clickOn(myInfoMenu);
+        clickOn(myInfoMenu);
+    }
+
+    public void clickPerformance() {
+        clickOn(performanceMenu);
+    }
+
+    public void clickDirectory() {
+        clickOn(directoryMenu);
+    }
+
+    public void clickMaintenance() {
+        clickOn(maintenanceMenu);
     }
 
 }
