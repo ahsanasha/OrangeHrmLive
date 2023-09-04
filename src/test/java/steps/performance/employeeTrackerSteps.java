@@ -31,7 +31,7 @@ public class employeeTrackerSteps {
 
     @Then("user should be redirected to the employee tracker page")
     public void userShouldBeRedirectedToTheEmployeeTrackerPage() {
-        Assert.assertEquals("Employee Performance Trackers", employeeTrackerPage.isOnEmployeeTracker());
+        Assert.assertEquals("Employee Reviews", employeeTrackerPage.isOnEmployeeTracker());
 
     }
 }
