@@ -17,7 +17,7 @@ Download [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 `*IntelliJ IDEA for your code editor is optional, you can still used another code editor like Eclipse or Visual Studio Code.`
 
 ## Added New Scenario BDD
-
+ 
 In order to added some Scenario BDD, we can create new file feature in directory `src/test/resources/features`
 
 ## Writing the step definitions (Breaking Down Scenario BDD Into Steps)
