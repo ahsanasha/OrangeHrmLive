@@ -43,4 +43,4 @@ jobs:
         subfolder: docs  # Level 1 Folder Structure you like
         tool_name: SerenityBDD # Level 2 Folder Structure you like
         workflow_name: ${{ github.workflow }} # Level 3 Folder Structure you like
-        env: SIT # Level 4 Folder Structure you like
+        env: SIT
