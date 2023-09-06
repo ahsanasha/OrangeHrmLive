@@ -3,7 +3,6 @@ package utilities;
 import net.serenitybdd.core.environment.EnvironmentSpecificConfiguration;
 import net.thucydides.core.environment.SystemEnvironmentVariables;
 import net.thucydides.core.util.EnvironmentVariables;
-import org.codehaus.plexus.interpolation.PrefixedObjectValueSource;
 
 import java.io.IOException;
 
