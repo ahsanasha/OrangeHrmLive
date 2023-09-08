@@ -1,8 +1,12 @@
 package utilities;
 
-import net.serenitybdd.core.environment.EnvironmentSpecificConfiguration;
-import net.thucydides.core.environment.SystemEnvironmentVariables;
-import net.thucydides.core.util.EnvironmentVariables;
+//import net.serenitybdd.core.environment.EnvironmentSpecificConfiguration;
+//import net.thucydides.core.environment.SystemEnvironmentVariables;
+//import net.thucydides.core.util.EnvironmentVariables;
+
+import net.serenitybdd.model.environment.EnvironmentSpecificConfiguration;
+import net.thucydides.model.environment.SystemEnvironmentVariables;
+import net.thucydides.model.util.EnvironmentVariables;
 
 import java.io.IOException;
 
