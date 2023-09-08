@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: SerenityBDD execution with maven
 
 on:
   pull_request:
