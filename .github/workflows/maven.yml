@@ -32,4 +32,4 @@ jobs:
       if: always()
       with:
         files: |
-          target/**/TEST-*.xml
+          target/failsafe-reports/TEST-*.xml
